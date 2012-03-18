@@ -1,0 +1,3 @@
+[submodule "devbox/puppet/modules"]
+	path = devbox/puppet/modules
+	url = git@github.com:jeremykendall/puppet-modules.git
