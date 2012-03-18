@@ -1,0 +1,14 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant::Config.run do |config|
+  config.vm.box = "ubuntu-11.10"
+  config.vm.box_url = "http://timhuegdon.com/vagrant-boxes/ubuntu-11.10.box"
+  config.vm.network :hostonly, "192.168.33.10"
+  config.vm.provision :puppet do |puppet|
+     puppet.manifests_path = "puppet"
+     puppet.manifest_file  = "base.pp"
+     puppet.module_path = "/Users/jkendall/dev/puppet/modules"
+  end
+  config.vm.customize ["modifyvm", :id, "--memory", "512"]
+end
