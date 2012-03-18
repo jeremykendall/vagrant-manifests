@@ -5,9 +5,6 @@ These manifests are the result of two days worth of learning. I'm guessing large
 portions of these manifests might be candidates for CSI: Vagrant, were there such a
 site. Pull requests, comments, and constructive ridicule are welcome.
 
-Manifests
----------
-
 There are two separate manifests included in this project.  One is a test bed/POC 
 for provisioning personal and commercial work servers, and the other is the 
 result of following the Vagrant [Getting
@@ -26,6 +23,7 @@ properly](http://vagrantup.com/docs/getting-started/index.html).
 
 If I've done my job properly, you should be able to run `vagrant up` in the
 devbox directory and end up with an Ubuntu 11.10 box with
+
 * php5
 * apache2
 * devbox.dev vhost
