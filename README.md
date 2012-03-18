@@ -60,7 +60,7 @@ excellent material I was working from.
 * [Getting Started with
   Vagrant](http://vagrantup.com/docs/getting-started/index.html)
 * Puppet Labs excellent [Learning Puppet](http://docs.puppetlabs.com/learning/)
-  documentation
+  documentation (The VM they provide is awesome. I wish more projects did that.)
 * I picked up a few things from the [Puppet
   CookBook](http://puppetcookbook.com/)
 * I referred to [How to create a VM with PHP 5.4 using Vagrant and
