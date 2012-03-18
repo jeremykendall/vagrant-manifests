@@ -47,7 +47,7 @@ Credits
 -------
 
 I couldn't have gottent his far without a lot of help from friends,
-documentation, and blog posts.  Thanks especially to [Christ
+documentation, and blog posts.  Thanks especially to [Chris
 Hartjes](http://twitter.com/grmpyprogrammer) for getting me pointed in the right
 direction.
 
