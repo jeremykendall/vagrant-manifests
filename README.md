@@ -6,7 +6,7 @@ portions of these manifests might be candidates for CSI: Vagrant, were there suc
 site. Pull requests, comments, and constructive ridicule are welcome.
 
 There are two separate manifests included in this project.  One is a test bed/POC 
-for provisioning personal and commercial work servers, and the other is the 
+for provisioning personal and work servers, and the other is the 
 result of following the Vagrant [Getting
 Started](http://vagrantup.com/docs/getting-started/index.html) guide.
 
