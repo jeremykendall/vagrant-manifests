@@ -42,3 +42,27 @@ vagrant_guide
 Nothing exciting here.  If you follow the Vagrant [Getting
 Started](http://vagrantup.com/docs/getting-started/index.html) guide and use the
 Puppet provisioning example, you should end up with pretty much the same thing.
+
+Credits
+-------
+
+I couldn't have gottent his far without a lot of help from friends,
+documentation, and blog posts.  Thanks especially to [Christ
+Hartjes](http://twitter.com/grmpyprogrammer) for getting me pointed in the right
+direction.
+
+Following is a list of posts and reference material I used to put this project
+together.  Any failings in this project are mine and not the result of the
+excellent material I was working from.
+
+* [Vagrant Virtualised Dev
+  Environments](http://nefariousdesigns.co.uk/vagrant-virtualised-dev-environments.html)
+* [Getting Started with
+  Vagrant](http://vagrantup.com/docs/getting-started/index.html)
+* Puppet Labs excellent [Learning Puppet](http://docs.puppetlabs.com/learning/)
+  documentation
+* I picked up a few things from the [Puppet
+  CookBook](http://puppetcookbook.com/)
+* I referred to [How to create a VM with PHP 5.4 using Vagrant and
+  Puppet](http://blog.vandenbrand.org/2012/03/06/how-to-create-a-vm-with-php-5-4-using-vagrant-and-puppet/)
+  for yet another example of using Vagrant and Puppet in real life.
