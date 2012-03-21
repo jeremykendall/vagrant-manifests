@@ -1,3 +1,3 @@
 #!/bin/bash
 
-puppet apply --modulepath=/vagrant/puppet/puppet-modules /vagrant/puppet/base.pp
+puppet apply --verbose --modulepath=/vagrant/puppet/puppet-modules /vagrant/puppet/base.pp
