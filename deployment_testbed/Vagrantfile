@@ -1,0 +1,11 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+#
+# devbox testbed
+
+Vagrant::Config.run do |config|
+  config.vm.box = "ubuntu-11.10"
+  config.vm.box_url = "http://timhuegdon.com/vagrant-boxes/ubuntu-11.10.box"
+  config.vm.network :hostonly, "192.168.33.22"
+  config.vm.customize ["modifyvm", :id, "--natnet1", "192.168/16"]
+end

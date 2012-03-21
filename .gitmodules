@@ -1,3 +1,6 @@
 [submodule "devbox/puppet/modules"]
 	path = devbox/puppet/modules
 	url = git@github.com:jeremykendall/puppet-modules.git
+[submodule "deployment_testbed/puppet/puppet-modules"]
+	path = deployment_testbed/puppet/puppet-modules
+	url = git@github.com:jeremykendall/puppet-modules.git
