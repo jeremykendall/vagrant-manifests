@@ -11,4 +11,5 @@ Vagrant::Config.run do |config|
      puppet.module_path = "puppet/modules"
   end
   config.vm.customize ["modifyvm", :id, "--memory", "512"]
+  config.vm.customize ["modifyvm", :id, "--natnet1", "10.0.28.0/24"]
 end
