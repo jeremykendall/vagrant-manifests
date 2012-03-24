@@ -1,7 +1,7 @@
 stage { 'pre': before  => Stage['main'] }
 stage {'last': require => Stage['main'] }
 
-class isrserver {
+class base {
     group { 'puppet':
         ensure => present,
     }
@@ -19,7 +19,7 @@ class isrserver {
     }
 }
 
-class {'isrserver': stage => pre }
+class {'base': stage => pre }
 class {'php5':}
 class {'apache2':}
 class {'svn':}
